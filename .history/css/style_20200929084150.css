@@ -1,0 +1,32 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    color: #212529;
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.breadcrumb a {
+    color: #212529;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.FixedHeightContainer {
+    float:right;
+    height: 250px;
+    width:250px; 
+    padding:3px; 
+    background:#f00;
+}
+
+.Content {
+    height:224px;
+    overflow:auto;
+    background:#fff;
+}

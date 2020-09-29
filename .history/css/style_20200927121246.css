@@ -1,0 +1,12 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    color: #212529;
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.breadcrumb a {
+    color: #212529;
+}

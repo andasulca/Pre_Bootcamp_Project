@@ -1,0 +1,18 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    color: #212529;
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+.breadcrumb a {
+    color: #212529;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
