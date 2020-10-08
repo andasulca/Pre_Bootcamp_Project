@@ -1,7 +1,0 @@
-.breadcrumb-item + .breadcrumb-item::before {
-    content: ">"
-}
-
-.breadcrumb {
-    background-color: hsl(210, 56%, 50%);
-}
