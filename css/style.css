@@ -29,3 +29,82 @@
 .amazing-grey {
     background-color: #d3d7da;
 }
+
+/* LU css selectors */
+
+.lu .hover:hover {
+    background-color: red;
+}
+
+.lu p {
+    background-color: aqua;
+}
+
+.lu * {
+    color: red;
+}
+.lu p[class^="test"] {
+    background: #ffff00;
+}
+
+.lu p:nth-last-child(2) {
+    text-decoration: underline;
+}
+
+.lu input:checked {
+    height: 30px;
+    width: 30px;
+}
+
+.lu input:focus {
+    background-color: yellow;
+}
+
+@media screen and (max-width: 540px) {
+    #sm {
+      background-color: tomato;
+      color: black;
+      display: block;
+    }
+
+    #md {
+        display: none;
+    }
+
+    #lg {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 540px) {
+    #sm {
+        display: none;
+    }
+
+    #md {
+        background-color: tomato;
+        color: black;
+        display: block;
+    }
+
+    #lg {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    #sm {
+        display: none;
+    }
+
+    #md {
+        display: none;
+    }
+
+    #lg {
+        background-color: tomato;
+        color: black;
+        display: block;
+    }
+}
