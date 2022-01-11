@@ -1,9 +1,3 @@
-$('.small-img').hover(function() {
-    var imageSrc = $(this).attr('src');
-    $('#main-image').attr('src', imageSrc);
-});
-
-
 $('#register-form').submit(function() {
     $('.error-msg').hide();
     var isValid = true;
@@ -54,7 +48,10 @@ $('#register-form').submit(function() {
     return isValid;
 });
 
-
+$('.small-img').hover(function() {
+    var imageSrc = $(this).attr('src');
+    $('#main-image').attr('src', imageSrc);
+});
 
 
 $('#chat-form').submit(function() {
@@ -73,4 +70,7 @@ $('#chat-form').submit(function() {
     return false;
 })
 
+function hideParagraph() {
+    document.getElementById("hideParagraph").style.visibility = "hidden";
+  }
 
