@@ -37,6 +37,9 @@
             <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="lu.html">LU</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="articles.html">Articles</a>
           </li>
           <li class="nav-item">
@@ -69,13 +72,13 @@
   </div>
 
   <div class="container pb-5">
-    <form class="col-6" id="register-form">
+    <form class="col-6" id="register-form" action="https://www.w3schools.com/action_page.php" target="_blank">
       <div class="form-group">
-        <input type="text" class="form-control" id="register-username" placeholder="Username*">
+        <input type="text" class="form-control" id="register-username" name="register-username" placeholder="Username*">
         <p class="error-msg" id="msg-username-empty">Please enter username</p>
       </div>
       <div class="form-group">
-        <input type="password" class="form-control" id="password" placeholder="Password*">
+        <input type="password" class="form-control" id="password" name="password" placeholder="Password*">
         <p class="error-msg" id="msg-password-empty">Please enter password</p>
         <p class="error-msg" id="msg-password-short">Password must be between 8 and 30 characters</p>
         <p class="error-msg" id="msg-password-capital">Password must include capital letters</p>
@@ -83,16 +86,16 @@
         <p class="error-msg" id="msg-password-numb">Password must include numbers</p>
       </div>
       <div class="form-group">
-        <input type="password" class="form-control" id="confirm-password" placeholder="Reenter password*">
+        <input type="password" class="form-control" id="confirm-password" name="confirm-password" placeholder="Reenter password*">
         <p class="error-msg" id="msg-match">Passwords don't match</p>
         <p class="error-msg" id="msg-match-empty">Please reenter password</p>
       </div>
       <div class="form-group">
-        <input type="text" class="form-control" id="first-name" placeholder="First name*">
+        <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First name*">
         <p class="error-msg" id="msg-name-empty">Please enter your first name</p>
       </div>
       <div class="form-group">
-        <input type="text" class="form-control" id="last-name" placeholder="Last name">
+        <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last name">
       </div>
       <div class="form-group">
         <select class="custom-select" id="select-country">
@@ -104,7 +107,7 @@
         <p class="error-msg" id="msg-country">Please select country</p>
       </div>
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="check-box">
+        <input class="form-check-input" type="checkbox" id="check-box" name="check-box">
         <label class="form-check-label" for="check-box">
           I agree with <a href="#" data-toggle="modal" data-target="#exampleModalLong">terms and conditions*</a>
         </label>
