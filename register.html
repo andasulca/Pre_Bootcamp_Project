@@ -14,7 +14,6 @@
       <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <a class="navbar-brand" href="index.html">
           <svg width="57" height="47" xmlns="http://www.w3.org/2000/svg">
-            <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
             <g>
               <title>background</title>
               <rect fill="#343a40" id="canvas_background" height="49" width="59" y="-1" x="-1"/>
@@ -113,8 +112,13 @@
         </label>
         <p class="error-msg" id="msg-terms">You must agree with terms and conditions to register</p>
       </div>
-      <button type="submit" class="btn btn-primary mt-2">Register</button>
+      <button type="submit" id="formButton" class="btn btn-primary mt-2">Register</button>
     </form>
+  </div>
+  <div class="container">
+    <div id="hidden-div" style="display:none">
+      <p>Form filled successfully</p>
+    </div>
   </div>
 
   <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
