@@ -68,24 +68,23 @@
 
     <div class="container">
 			<div class="lu">
-				<p class="hover">Hover</p>
-				<p>P element</p>
-				<p>All</p>
-				<p class="test1">attribute^=value</p>
-				<p class="test2">attribute^=value</p>
-				<p class="tes">attribute^=value</p>
-				<p>:nth-last-child(n)</p>
+				<p class="hover">Hover over</p>
+				<p>Text color of all elements(*)</p>
+				<p class="test1">attribute^=value(test1)</p>
+				<p class="test2">attribute^=value(test2)</p>
+				<p class="tes">attribute^=value(tes)</p>
+				<p>nth-child(odd) underline</p>
 				<form action="">
-					<input type="radio" checked="checked" value="male" name="gender"> Male<br>
-					<input type="radio" value="female" name="gender"> Female<br>
+					<input type="radio" checked="checked" value="male" name="gender"> Male input:checked<br>
+					<input type="radio" value="female" name="gender"> Female input:checked<br>
 				</form>
 				<form>
-					First name: <input type="text" name="firstname"><br> Last name: <input type="text" name="lastname">
+					First name: input:focus<input type="text" name="firstname"><br> Last name: input:focus<input type="text" name="lastname">
 				</form>
 				<div id="sm">Small</div>
 				<div id="md">Medium</div>
 				<div id="lg">Large</div>
-				<p id="hideParagraph">This is a p element.</p>
+				<p id="hideParagraph">This element will be hidden.</p>
 				<button type="button" onclick="hideParagraph()">Hide content of p</button>
 			</div>
     </div>

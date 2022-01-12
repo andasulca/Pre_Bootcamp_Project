@@ -30,24 +30,25 @@
     background-color: #d3d7da;
 }
 
+a {
+    color: #212529;
+}
+
 /* LU css selectors */
 
 .lu .hover:hover {
-    background-color: red;
-}
-
-.lu p {
-    background-color: aqua;
+    background-color: #4c81b5;
 }
 
 .lu * {
     color: red;
 }
+
 .lu p[class^="test"] {
     background: #ffff00;
 }
 
-.lu p:nth-last-child(2) {
+.lu>p:nth-child(odd) {
     text-decoration: underline;
 }
 
@@ -62,7 +63,7 @@
 
 @media screen and (max-width: 540px) {
     #sm {
-      background-color: tomato;
+      background-color: #b5b04c;
       color: black;
       display: block;
       font-size: 30px;
@@ -84,7 +85,7 @@
     }
 
     #md {
-        background-color: tomato;
+        background-color: #b54c4c;
         color: black;
         display: block;
         font-size: 30px;
@@ -105,7 +106,7 @@
     }
 
     #lg {
-        background-color: tomato;
+        background-color: #4cb56f;
         color: black;
         display: block;
         font-size: 30px;
