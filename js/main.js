@@ -73,8 +73,3 @@ $('#chat-form').submit(function() {
 function hideParagraph() {
     document.getElementById("hideParagraph").style.visibility = "hidden";
 }
-
-$("#formButton").click(function() {
-    $("#register-form").toggle();
-    $("#hidden-div").show();
-});
